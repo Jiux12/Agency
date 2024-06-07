@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EstateApp"
         mc:Ignorable="d"
-        Title="MainNav" Height="450" Width="900">
+        Title="MainNav" Height="540" Width="900">
     <Grid Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
