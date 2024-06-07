@@ -7,6 +7,21 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ClientAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClientEdit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DealAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DealEdit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DealList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="DemandAdd.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -28,6 +43,18 @@
     <Compile Update="DemandList.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ClientList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RealtorAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RealtorEdit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RealtorList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="SuppliesAdd.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -39,6 +66,21 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="ClientAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClientEdit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DealAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DealEdit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DealList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="DemandAdd.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -58,6 +100,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="DemandList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClientList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RealtorAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RealtorEdit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RealtorList.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SuppliesAdd.xaml">

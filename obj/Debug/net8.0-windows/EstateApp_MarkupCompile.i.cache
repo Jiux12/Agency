@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\rotf2\OneDrive\Рабочий стол\Лабы 3 курс\Практики летние\Учебная\EstateApp\App.xaml
-10863440907
+19-2071635267
 
-151722561883
+241451323234
 198155382431
-DemandAdd.xaml;DemandEdit.xaml;DemandList.xaml;EstateAdd.xaml;EstateEdit.xaml;EstateList.xaml;MainNav.xaml;SuppliesAdd.xaml;SuppliesEdit.xaml;SuppliesList.xaml;
+ClientAdd.xaml;ClientEdit.xaml;ClientList.xaml;DealAdd.xaml;DealEdit.xaml;DealList.xaml;DemandAdd.xaml;DemandEdit.xaml;DemandList.xaml;EstateAdd.xaml;EstateEdit.xaml;EstateList.xaml;MainNav.xaml;RealtorAdd.xaml;RealtorEdit.xaml;RealtorList.xaml;SuppliesAdd.xaml;SuppliesEdit.xaml;SuppliesList.xaml;
 
 True
 
