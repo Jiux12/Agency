@@ -24,5 +24,15 @@ namespace EstateApp
         {
             InitializeComponent();
         }
+
+        private void Button_RealtorAdd_Click(object sender, RoutedEventArgs e)
+        {
+            MainNav.Instance.Landing.Content = new RealtorAdd();
+        }
+
+        private void Button_RealtorEdit_Click(object sender, RoutedEventArgs e)
+        {
+            MainNav.Instance.Landing.Content = new RealtorEdit();
+        }
     }
 }

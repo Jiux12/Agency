@@ -19,8 +19,8 @@
         </StackPanel>
 
         <StackPanel Grid.Column="1" Margin="10">
-            <Button Content="Создать" Padding="5" Margin="0,10,0,10" Click="Button_EstateAdd_Click"/>
-            <Button Content="Редактировать" Padding="5" Click="Button_EstateEdit_Click"/>
+            <Button Content="Создать" Padding="5" Margin="0,10,0,10" Click="Button_DealAdd_Click"/>
+            <Button Content="Редактировать" Padding="5" Click="Button_DealEdit_Click"/>
         </StackPanel>
     </Grid>
 </Page>

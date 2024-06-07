@@ -24,5 +24,15 @@ namespace EstateApp
         {
             InitializeComponent();
         }
+
+        private void Button_ClientAdd_Click(object sender, RoutedEventArgs e)
+        {
+            MainNav.Instance.Landing.Content = new ClientAdd();
+        }
+
+        private void Button_ClientEdit_Click(object sender, RoutedEventArgs e)
+        {
+            MainNav.Instance.Landing.Content = new ClientEdit();
+        }
     }
 }

@@ -23,11 +23,12 @@
             <Button Content="X" HorizontalAlignment="Right" Margin="10" VerticalAlignment="Top" Width="30" Background="Red" Foreground="White"/>
 
             <StackPanel Grid.Row="1"  Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10">
-                <Button Content="Недвижимость" FontSize="16" Margin="0,0,15,0" Click="Button_EstateList_Click"/>
-                <Button Content="Потребность" FontSize="16" Margin="0,0,15,0" Click="Button_DemandList_Click"/>
-                <Button Content="Предложение" FontSize="16" Margin="0,0,15,0"/>
-                <Button Content="Сделка" FontSize="16" Margin="0,0,15,0"/>
-                <Button Content="Профиль" FontSize="16"/>
+                <Button Content="Недвижимость" FontSize="16" Margin="0,0,15,0" Padding="10,0,10,0" Click="Button_EstateList_Click"/>
+                <Button Content="Потребность" FontSize="16" Margin="0,0,15,0" Padding="10,0,10,0" Click="Button_DemandList_Click"/>
+                <Button Content="Предложение" FontSize="16" Margin="0,0,15,0" Padding="10,0,10,0" Click="Button_SuppliesList_Click"/>
+                <Button Content="Сделка" FontSize="16" Margin="0,0,15,0" Padding="10,0,10,0" Click="Button_DealList_Click"/>
+                <Button Content="Клиент" FontSize="16" Margin="0,0,15,0" Padding="10,0,10,0" Click="Button_ClientList_Click"/>
+                <Button Content="Агент" FontSize="16" Padding="10,0,10,0" Click="Button_RealtorList_Click"/>
             </StackPanel>
         </Grid>
 

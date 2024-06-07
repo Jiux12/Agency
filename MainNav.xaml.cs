@@ -40,5 +40,29 @@ namespace EstateApp
             Landing.Content = new DemandList();
             NavName.Text = "Потребность";
         }
+
+        private void Button_SuppliesList_Click(object sender, RoutedEventArgs e)
+        {
+            Landing.Content = new SuppliesList();
+            NavName.Text = "Предложение";
+        }
+
+        private void Button_DealList_Click(object sender, RoutedEventArgs e)
+        {
+            Landing.Content = new DealList();
+            NavName.Text = "Сделка";
+        }
+
+        private void Button_ClientList_Click(object sender, RoutedEventArgs e)
+        {
+            Landing.Content = new ClientList();
+            NavName.Text = "Клиент";
+        }
+
+        private void Button_RealtorList_Click(object sender, RoutedEventArgs e)
+        {
+            Landing.Content = new RealtorList();
+            NavName.Text = "Агент";
+        }
     }
 }

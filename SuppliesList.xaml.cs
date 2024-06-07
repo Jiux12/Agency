@@ -24,5 +24,15 @@ namespace EstateApp
         {
             InitializeComponent();
         }
+
+        private void Button_SuppliesAdd_Click(object sender, RoutedEventArgs e)
+        {
+            MainNav.Instance.Landing.Content = new SuppliesAdd();
+        }
+
+        private void Button_SuppliesEdit_Click(object sender, RoutedEventArgs e)
+        {
+            MainNav.Instance.Landing.Content = new SuppliesEdit();
+        }
     }
 }
