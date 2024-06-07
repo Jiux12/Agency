@@ -1,0 +1,36 @@
+﻿<Window x:Class="EstateApp.MainNav"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EstateApp"
+        mc:Ignorable="d"
+        Title="MainNav" Height="450" Width="900">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Background="#FF009688">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            
+            <TextBlock Name="NavName" HorizontalAlignment="Center" Padding="10" Margin="10" TextWrapping="Wrap" Text="Недвижимость" FontSize="24" Foreground="Black"/>
+            <Button Content="Назад" HorizontalAlignment="Right" Margin="10,10,50,10" VerticalAlignment="Top" Width="75"/>
+            <Button Content="X" HorizontalAlignment="Right" Margin="10" VerticalAlignment="Top" Width="30" Background="Red" Foreground="White"/>
+
+            <StackPanel Grid.Row="1"  Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10">
+                <Button Content="Недвижимость" FontSize="16" Margin="0,0,15,0" Click="Button_EstateList_Click"/>
+                <Button Content="Потребность" FontSize="16" Margin="0,0,15,0" Click="Button_DemandList_Click"/>
+                <Button Content="Предложение" FontSize="16" Margin="0,0,15,0"/>
+                <Button Content="Сделка" FontSize="16" Margin="0,0,15,0"/>
+                <Button Content="Профиль" FontSize="16"/>
+            </StackPanel>
+        </Grid>
+
+        <Frame Name="Landing" Grid.Row="1" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

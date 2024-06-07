@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="DemandAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DemandEdit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EstateAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EstateEdit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EstateList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainNav.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DemandList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SuppliesAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SuppliesEdit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SuppliesList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="DemandAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DemandEdit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EstateAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EstateEdit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EstateList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainNav.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DemandList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SuppliesAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SuppliesEdit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SuppliesList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
